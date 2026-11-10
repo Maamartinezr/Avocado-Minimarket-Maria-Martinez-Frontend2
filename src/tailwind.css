@@ -1,0 +1,13 @@
+@layer theme, utilities;
+@import 'tailwindcss/theme.css' layer(theme) prefix(tw);
+@import 'tailwindcss/utilities.css' layer(utilities) prefix(tw);
+
+@theme inline {
+  --color-avocado-border: var(--border);
+  --color-avocado-cream: var(--cream-light);
+  --color-avocado-lime: var(--lime);
+  --color-avocado-olive: var(--olive);
+  --color-avocado-salmon-light: var(--salmon-light);
+  --color-avocado-sun: var(--sun);
+  --color-avocado-surface: var(--surface);
+}
